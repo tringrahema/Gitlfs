@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDE4E271C9000D70025A0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4E261C9000D70025A0DE /* main.m */; };
+		CFDE4E2A1C9000D70025A0DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4E291C9000D70025A0DE /* AppDelegate.m */; };
+		CFDE4E2D1C9000D70025A0DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4E2C1C9000D70025A0DE /* ViewController.m */; };
+		CFDE4E301C9000D70025A0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4E2E1C9000D70025A0DE /* Main.storyboard */; };
+		CFDE4E321C9000D70025A0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4E311C9000D70025A0DE /* Assets.xcassets */; };
+		CFDE4E351C9000D70025A0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4E331C9000D70025A0DE /* LaunchScreen.storyboard */; };
+		CFDE4E401C9000D70025A0DE /* VideoStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4E3F1C9000D70025A0DE /* VideoStreamTests.m */; };
+		CFDE4E4B1C9000D70025A0DE /* VideoStreamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4E4A1C9000D70025A0DE /* VideoStreamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDE4E3C1C9000D70025A0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDE4E1A1C9000D60025A0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDE4E211C9000D70025A0DE;
+			remoteInfo = VideoStream;
+		};
+		CFDE4E471C9000D70025A0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDE4E1A1C9000D60025A0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDE4E211C9000D70025A0DE;
+			remoteInfo = VideoStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFDE4E221C9000D70025A0DE /* VideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE4E261C9000D70025A0DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFDE4E281C9000D70025A0DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFDE4E291C9000D70025A0DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFDE4E2B1C9000D70025A0DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFDE4E2C1C9000D70025A0DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFDE4E2F1C9000D70025A0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFDE4E311C9000D70025A0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDE4E341C9000D70025A0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFDE4E361C9000D70025A0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE4E3B1C9000D70025A0DE /* VideoStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE4E3F1C9000D70025A0DE /* VideoStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoStreamTests.m; sourceTree = "<group>"; };
+		CFDE4E411C9000D70025A0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE4E461C9000D70025A0DE /* VideoStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE4E4A1C9000D70025A0DE /* VideoStreamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoStreamUITests.m; sourceTree = "<group>"; };
+		CFDE4E4C1C9000D70025A0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDE4E1F1C9000D70025A0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE4E381C9000D70025A0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE4E431C9000D70025A0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDE4E191C9000D60025A0DE = {
+			isa = PBXGroup;
+			children = (
+				CFDE4E241C9000D70025A0DE /* VideoStream */,
+				CFDE4E3E1C9000D70025A0DE /* VideoStreamTests */,
+				CFDE4E491C9000D70025A0DE /* VideoStreamUITests */,
+				CFDE4E231C9000D70025A0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDE4E231C9000D70025A0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE4E221C9000D70025A0DE /* VideoStream.app */,
+				CFDE4E3B1C9000D70025A0DE /* VideoStreamTests.xctest */,
+				CFDE4E461C9000D70025A0DE /* VideoStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDE4E241C9000D70025A0DE /* VideoStream */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE4E281C9000D70025A0DE /* AppDelegate.h */,
+				CFDE4E291C9000D70025A0DE /* AppDelegate.m */,
+				CFDE4E2B1C9000D70025A0DE /* ViewController.h */,
+				CFDE4E2C1C9000D70025A0DE /* ViewController.m */,
+				CFDE4E2E1C9000D70025A0DE /* Main.storyboard */,
+				CFDE4E311C9000D70025A0DE /* Assets.xcassets */,
+				CFDE4E331C9000D70025A0DE /* LaunchScreen.storyboard */,
+				CFDE4E361C9000D70025A0DE /* Info.plist */,
+				CFDE4E251C9000D70025A0DE /* Supporting Files */,
+			);
+			path = VideoStream;
+			sourceTree = "<group>";
+		};
+		CFDE4E251C9000D70025A0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE4E261C9000D70025A0DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDE4E3E1C9000D70025A0DE /* VideoStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE4E3F1C9000D70025A0DE /* VideoStreamTests.m */,
+				CFDE4E411C9000D70025A0DE /* Info.plist */,
+			);
+			path = VideoStreamTests;
+			sourceTree = "<group>";
+		};
+		CFDE4E491C9000D70025A0DE /* VideoStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE4E4A1C9000D70025A0DE /* VideoStreamUITests.m */,
+				CFDE4E4C1C9000D70025A0DE /* Info.plist */,
+			);
+			path = VideoStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFDE4E211C9000D70025A0DE /* VideoStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDE4E4F1C9000D70025A0DE /* Build configuration list for PBXNativeTarget "VideoStream" */;
+			buildPhases = (
+				CFDE4E1E1C9000D70025A0DE /* Sources */,
+				CFDE4E1F1C9000D70025A0DE /* Frameworks */,
+				CFDE4E201C9000D70025A0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoStream;
+			productName = VideoStream;
+			productReference = CFDE4E221C9000D70025A0DE /* VideoStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDE4E3A1C9000D70025A0DE /* VideoStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDE4E521C9000D70025A0DE /* Build configuration list for PBXNativeTarget "VideoStreamTests" */;
+			buildPhases = (
+				CFDE4E371C9000D70025A0DE /* Sources */,
+				CFDE4E381C9000D70025A0DE /* Frameworks */,
+				CFDE4E391C9000D70025A0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDE4E3D1C9000D70025A0DE /* PBXTargetDependency */,
+			);
+			name = VideoStreamTests;
+			productName = VideoStreamTests;
+			productReference = CFDE4E3B1C9000D70025A0DE /* VideoStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDE4E451C9000D70025A0DE /* VideoStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDE4E551C9000D70025A0DE /* Build configuration list for PBXNativeTarget "VideoStreamUITests" */;
+			buildPhases = (
+				CFDE4E421C9000D70025A0DE /* Sources */,
+				CFDE4E431C9000D70025A0DE /* Frameworks */,
+				CFDE4E441C9000D70025A0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDE4E481C9000D70025A0DE /* PBXTargetDependency */,
+			);
+			name = VideoStreamUITests;
+			productName = VideoStreamUITests;
+			productReference = CFDE4E461C9000D70025A0DE /* VideoStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDE4E1A1C9000D60025A0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tringapps;
+				TargetAttributes = {
+					CFDE4E211C9000D70025A0DE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CFDE4E3A1C9000D70025A0DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CFDE4E211C9000D70025A0DE;
+					};
+					CFDE4E451C9000D70025A0DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CFDE4E211C9000D70025A0DE;
+					};
+				};
+			};
+			buildConfigurationList = CFDE4E1D1C9000D60025A0DE /* Build configuration list for PBXProject "VideoStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDE4E191C9000D60025A0DE;
+			productRefGroup = CFDE4E231C9000D70025A0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDE4E211C9000D70025A0DE /* VideoStream */,
+				CFDE4E3A1C9000D70025A0DE /* VideoStreamTests */,
+				CFDE4E451C9000D70025A0DE /* VideoStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDE4E201C9000D70025A0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE4E351C9000D70025A0DE /* LaunchScreen.storyboard in Resources */,
+				CFDE4E321C9000D70025A0DE /* Assets.xcassets in Resources */,
+				CFDE4E301C9000D70025A0DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE4E391C9000D70025A0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE4E441C9000D70025A0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDE4E1E1C9000D70025A0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE4E2D1C9000D70025A0DE /* ViewController.m in Sources */,
+				CFDE4E2A1C9000D70025A0DE /* AppDelegate.m in Sources */,
+				CFDE4E271C9000D70025A0DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE4E371C9000D70025A0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE4E401C9000D70025A0DE /* VideoStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE4E421C9000D70025A0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE4E4B1C9000D70025A0DE /* VideoStreamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDE4E3D1C9000D70025A0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDE4E211C9000D70025A0DE /* VideoStream */;
+			targetProxy = CFDE4E3C1C9000D70025A0DE /* PBXContainerItemProxy */;
+		};
+		CFDE4E481C9000D70025A0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDE4E211C9000D70025A0DE /* VideoStream */;
+			targetProxy = CFDE4E471C9000D70025A0DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFDE4E2E1C9000D70025A0DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDE4E2F1C9000D70025A0DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFDE4E331C9000D70025A0DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDE4E341C9000D70025A0DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFDE4E4D1C9000D70025A0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFDE4E4E1C9000D70025A0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDE4E501C9000D70025A0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.VideoStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFDE4E511C9000D70025A0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.VideoStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFDE4E531C9000D70025A0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.VideoStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoStream.app/VideoStream";
+			};
+			name = Debug;
+		};
+		CFDE4E541C9000D70025A0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.VideoStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoStream.app/VideoStream";
+			};
+			name = Release;
+		};
+		CFDE4E561C9000D70025A0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.VideoStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoStream;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFDE4E571C9000D70025A0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.VideoStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoStream;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDE4E1D1C9000D60025A0DE /* Build configuration list for PBXProject "VideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE4E4D1C9000D70025A0DE /* Debug */,
+				CFDE4E4E1C9000D70025A0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDE4E4F1C9000D70025A0DE /* Build configuration list for PBXNativeTarget "VideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE4E501C9000D70025A0DE /* Debug */,
+				CFDE4E511C9000D70025A0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDE4E521C9000D70025A0DE /* Build configuration list for PBXNativeTarget "VideoStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE4E531C9000D70025A0DE /* Debug */,
+				CFDE4E541C9000D70025A0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDE4E551C9000D70025A0DE /* Build configuration list for PBXNativeTarget "VideoStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE4E561C9000D70025A0DE /* Debug */,
+				CFDE4E571C9000D70025A0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFDE4E1A1C9000D60025A0DE /* Project object */;
+}
